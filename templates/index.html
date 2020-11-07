@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Apada</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    </head>
+    
+    <body>
+      <center><img class="ui fluid image" src="https://www.linkpicture.com/q/Calamity-Conscience-_-Contribute_1.png" style="width: 420px; height: 200px;"></center>  
+<br>
+<center><h1 class="ui header" style="font-family: 'Montserrat', sans-serif; ">Risk Predictions based on location</h1></center>
+<br>
+<center>
+    <div class="ui action input">
+        <form action="{{ url_for("gfg")}}" method="post"> 
+<label for="firstname">Location:</label> 
+<input type="text" id="firstname" name="fname" placeholder="Location"> 
+        <button class="ui button"><text  style="font-family: 'Poppins', sans-serif;">Predict</text></button>
+      </div>
+</center>
+
+
+    </body>
+</html>
